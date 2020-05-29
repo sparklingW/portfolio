@@ -1,0 +1,112 @@
+body {
+  margin: 0 auto;
+  width: 100%;
+  height: 100vh;
+
+  font-size: 16px;
+  box-sizing: border-box;
+  overflow-x: hidden;
+
+  font-family: 'Roboto Slab', serif;
+}
+.page_style {
+  background-color: white;
+}
+ul,
+ol {
+  list-style: none;
+  padding: 0 0;
+  margin: 0 0;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+a:visited {
+  color: black;
+}
+a:hover {
+  text-decoration: underline;
+}
+/* About block */
+.about {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}
+.nav_section {
+  border-right: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 25%;
+}
+.nav_section_logo > a > img {
+  width: 8rem;
+  height: 8rem;
+}
+.description_section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  width: 100%;
+}
+.desc_elements {
+  padding: 10px 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.title {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.info_text {
+  font-size: 1.1rem;
+}
+.general_info {
+  margin: 15px 0;
+}
+.stack_info {
+  margin: 15px 0;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+}
+.list {
+  padding: 0 10px;
+}
+.projects_info {
+  margin: 15px 0;
+}
+.contact_block > ul > li {
+  max-width: 260px;
+}
+.contact_block > ul > li > a {
+  display: flex;
+  align-items: center;
+}
+.contact_block > ul > li > a > span {
+  display: inline-block;
+  margin: 0 5px;
+}
+.contact_block > ul > li > a > img {
+  height: 2rem;
+  width: 2rem;
+  margin-right: 5px;
+}
+@media screen and (max-width: 610px) {
+  .nav_section_logo > a > img {
+    width: 6rem;
+    height: 6rem;
+  }
+}
+@media screen and (max-width: 470px) {
+  .nav_section_logo > a > img {
+    width: 4rem;
+    height: 4rem;
+  }
+}
