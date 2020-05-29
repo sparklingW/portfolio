@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="216px" height="169px" viewBox="0 0 216 169" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>ilya-vel-v-greenCombined Shape</title>
+    <defs>
+        <radialGradient cx="10.9670247%" cy="-26.0594514%" fx="10.9670247%" fy="-26.0594514%" r="123.991671%" gradientTransform="translate(0.109670,-0.260595),scale(0.769815,1.000000),rotate(36.444318),scale(1.000000,0.598087),translate(-0.109670,0.260595)" id="radialGradient-1">
+            <stop stop-color="#000000" offset="0%"></stop>
+            <stop stop-color="#08200B" offset="3.5591067%"></stop>
+            <stop stop-color="#1F822C" offset="5.6249865%"></stop>
+            <stop stop-color="#1D7829" offset="35.0309083%"></stop>
+            <stop stop-color="#32D347" offset="100%"></stop>
+        </radialGradient>
+        <path d="M91.0118383,2.1796875 L145.729594,150.793703 L194.345697,2.1796875 L213.511469,2.1796875 L165.045466,150.793703 L160.795649,163.285156 L128.030461,163.285156 L71.9726563,2.1796875 L91.0118383,2.1796875 Z M63.5546875,39.078125 L63.5546875,163.105469 L4,163.105469 L13.2474812,159.872662 L26.2695312,155.320312 L26.2695312,39.078125 L63.5546875,39.078125 Z M63.5546875,2 L63.5546875,32.1015625 L26.9023438,32.1015625 L26.9023438,2 L63.5546875,2 Z" id="path-2"></path>
+        <filter x="-3.8%" y="-3.1%" width="106.7%" height="108.7%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="-1" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Combined-Shape">
+            <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+            <use fill="url(#radialGradient-1)" fill-rule="evenodd" xlink:href="#path-2"></use>
+        </g>
+    </g>
+</svg>
